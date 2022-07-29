@@ -16,8 +16,8 @@ provider "azurerm" {
 }
 
 # the resource group to logically contain resources
-resource "azurerm_resource_group" "rg_tutorial_1" {
-  name     = "rg_tutorial_1_field_name"
+resource "azurerm_resource_group" "resource_group" {
+  name     = "resource-group-tutorial-1"
   location = "eastus2"
   tags = {
     enviroment = "dev"
